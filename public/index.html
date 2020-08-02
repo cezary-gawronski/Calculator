@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculatorr</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <noscript
@@ -12,13 +18,13 @@
 	
 <section class="calculator">
 	<div class="calculator__main-part-container">
-    <div class="calculator__display" id="js-display"></div>
+    <div class="calculator__display" id="js-display">0</div>
     <div class="calculator__memory-container">
-      <div class="calculator__memory-button" id="js-MC">MC</div>
-      <div class="calculator__memory-button" id="js-MR">MR</div>
-      <div class="calculator__memory-button" id="js-M+">M+</div>
-      <div class="calculator__memory-button" id="js-M-">M-</div>
-      <div class="calculator__memory-button" id="js-MS">MS</div>
+      <div class="calculator__button calculator__button--memory" id="js-MC">MC</div>
+      <div class="calculator__button calculator__button--memory" id="js-MR">MR</div>
+      <div class="calculator__button calculator__button--memory" id="js-M+">M+</div>
+      <div class="calculator__button calculator__button--memory" id="js-M-">M-</div>
+      <div class="calculator__button calculator__button--memory" id="js-MS">MS</div>
     </div>
     <div class="calculator__buttons-container">
       <div class="calculator__button" id="js-percent">%</div>
